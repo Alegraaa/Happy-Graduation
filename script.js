@@ -21,7 +21,7 @@ async function tanya() {
     var { 
       value: kado 
     } = await swal.fire({ 
-        title: "harapan pian setelah wisuda bagaimana?", input: "text", showCancelButton: false, 
+        title: "tulis harapan pian kedepannya setelah wisuda ingin bagaimana?", input: "text", showCancelButton: false, 
       }); 
 
   if (kado) {
