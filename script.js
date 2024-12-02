@@ -21,9 +21,9 @@ async function tanya() {
     var { 
       value: kado 
     } = await swal.fire({ 
-        title: "Di hari spesial ini apa harapan amaa?", input: "text", showCancelButton: false, 
+        title: "harapan pian setelah wisuda bagaimana?", input: "text", showCancelButton: false, 
       }); 
 
   if (kado) {
-     await swal.fire("Kirim jawabannya ke wa aku ya"); wa(kado); 
-    } else { await swal.fire("kenapa di kosongi? isi dongg"); tanya(); } } 
+     await swal.fire("text nya langsung tekirim ke wa ulun"); wa(kado); 
+    } else { await swal.fire("kenapa kosong? harus ada harapan pokoknya"); tanya(); } } 
