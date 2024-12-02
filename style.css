@@ -92,14 +92,7 @@
       box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123); 
       } 
 
-    .material-icons-sharp { 
-      color: red; 
-      font-size: 30px; 
-      transform: translateY(5px); 
-      animation: kenyal 2s ease infinite; 
-      cursor: pointer; 
-    } 
-
+   
     @keyframes kenyal { 
       0% { 
           transform: scale(1) translateY(5px); 
