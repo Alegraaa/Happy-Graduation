@@ -14,7 +14,7 @@ function mulai(){
   } 
 
 function wa(isi) { 
-window.open("https://wa.me/+6285771263611/?text= terimakasih sudah diisi, jadi harapan ku " + isi); 
+window.open("https://wa.me/+6285771263611/?text= terimakasih sudah diisi, jadi harapan ku..." + isi); 
 } 
 
 async function tanya() { 
